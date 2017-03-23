@@ -10,6 +10,12 @@ public class ScoreBoard extends Actor
     public static final int WIDTH = 400;
     public static final int HEIGHT = 300;
     
+    public int add(int a, int b){
+    	
+    	return a+b;
+    	
+    }
+    
     public void setParams(int cars, int total)
     {
         setImage("bord.png");
