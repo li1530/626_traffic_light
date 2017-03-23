@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Car_v
+comment0.text=\n\ Car\ driving\ vertical\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=ds
+comment2.target=void\ setDestination(int)
+comment2.text=Where\ are\ we\ going\ to?
+numComments=3

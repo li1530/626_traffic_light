@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=LightAlgorithm
+comment0.text=\n\ Main\ Algorithm\n\ \n\ -\ Initialize\ variables\ for\ algorithm\n\ -\ Set\ singly\ linked\ list\n\ -\ Return\ next\ light\ on\ the\ list\n\ -\ Move\ pointer\ up\ the\ linked\ list\n\ \n\ @author\ (Yorick)\ \n\ @version\ (0.141592654)\n
+comment1.params=directions\ lanes
+comment1.target=LightAlgorithm(int,\ int)
+comment1.text=Constructor\ for\ objects\ of\ class\ LightAlgorithm
+comment10.params=
+comment10.target=void\ resetLight()
+comment2.params=iterator\ status
+comment2.target=void\ setLightStatus(int,\ boolean)
+comment3.params=iterator
+comment3.target=boolean\ getLightStatus(int)
+comment4.params=
+comment4.target=void\ activate()
+comment5.params=
+comment5.target=void\ deactivate()
+comment6.params=
+comment6.target=boolean\ isActivated()
+comment7.params=light
+comment7.target=void\ resetLight(int)
+comment8.params=
+comment8.target=int\ getLight()
+comment9.params=
+comment9.target=void\ nextLight()
+numComments=11

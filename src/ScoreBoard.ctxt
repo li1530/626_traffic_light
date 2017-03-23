@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=ScoreBoard
+comment1.params=cars\ total
+comment1.target=void\ setParams(int,\ int)
+numComments=2
