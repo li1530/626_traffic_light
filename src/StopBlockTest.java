@@ -1,10 +1,10 @@
-package test;
+
 
 //import static org.junit.Assert.*;
 
 //import org.junit.Test;
 
-public class Light_rTest {
+public class StopBlockTest {
 
 	// No methods to test
 

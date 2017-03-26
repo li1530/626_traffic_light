@@ -1,10 +1,10 @@
-package test;
+
 
 //import static org.junit.Assert.*;
 
 //import org.junit.Test;
 
-public class DestBlockTest {
+public class VehicleTest {
 
 	// No methods to test
 

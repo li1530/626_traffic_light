@@ -1,28 +1,28 @@
-package test;
+
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class Car_hTest {
+public class ScoreBoardTest {
 
 	@Test
-	public void testCFTAct() {
+	public void testCFTAdd() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	public void testCFTSetDestination() {
+	public void testCFTSetParams() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	public void testDFTAct() {
+	public void testDFTAdd() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	public void testDFTSetDestination() {
+	public void testDFTSetParams() {
 		fail("Not yet implemented");
 	}
 

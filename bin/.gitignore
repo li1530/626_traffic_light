@@ -1,3 +1,17 @@
 /test/
+/Block_hTest.class
+/Block_vTest.class
 /CarTest.class
+/Car_hTest.class
+/Car_vTest.class
+/DestBlockTest.class
+/LightAlgorithmTest.class
+/Light_dTest.class
+/Light_lTest.class
+/Light_rTest.class
+/Light_uTest.class
+/ScoreBoardTest.class
+/StopBlockTest.class
 /TrafficLightTest.class
+/TrafficWorldTest.class
+/VehicleTest.class
