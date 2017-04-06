@@ -32,7 +32,7 @@ public class Car_hTest {
 
 	@Test
 	public void testCFTAct() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
 	}
 
 	@Test
@@ -72,12 +72,18 @@ public class Car_hTest {
 
 	@Test
 	public void testDFTAct() {
-		fail("Not yet implemented");
+		int expectInitialDest = -1;
+		assertEquals(expectInitialDest, car_h.initDest);
 	}
 
+	/**
+	 * Make sure the value get assign correct to variable "dest" through setDestination.
+	 */
 	@Test
 	public void testDFTSetDestination() {
-		fail("Not yet implemented");
+		int expectDestination = 10;
+		car_h.setDestination(expectDestination);
+		assertEquals(expectDestination, car_h.dest);
 	}
 
 }
