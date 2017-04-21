@@ -58,7 +58,6 @@ public class Car_hTest {
 		assertTrue("Destination should still be 1, but is: " + car_h.dest, car_h.dest == 1);
 		assertTrue("Rotation should still be 0, but is: " + car_h.getRotation(), car_h.getRotation() == 0);
 		assertTrue("Max destination should have changed to -90, but is: " + car_h.maxDest, car_h.maxDest == -90);
-		
 		after();
 		before();
 
