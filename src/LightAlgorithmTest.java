@@ -1,8 +1,10 @@
 
+import static org.mockito.Mockito.*;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.mockito.Mockito;
 
 public class LightAlgorithmTest {
 
@@ -99,6 +101,18 @@ public class LightAlgorithmTest {
 		la.resetLight(1);
 		la.nextLight();
 		assertEquals(2, la.getLight());
+	}
+	
+	@Test
+	public void tstMockito(){
+		LightAlgorithm la = new LightAlgorithm(2, 2);
+		//HERE IS IT! Test Sub
+		ICar car = Mockito.mock(ICar.class);
+		la.setCurrentLight(2);
+		assertEquals(2, la.getCurrentLight());
+		la.testMockito(car);
+		assertEquals(0, la.getCurrentLight());
+		
 	}
 
 	@Test
